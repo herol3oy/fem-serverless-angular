@@ -1,6 +1,5 @@
 [build]
-  command = "ng build"
-    command = "ng build && ng run serverless-angular-workshop:serverless:production"
+  command = "ng build && ng run serverless-angular-workshop:serverless:production"
   publish = "dist/serverless-angular-workshop/browser"
 
 [[redirects]]
